@@ -33,4 +33,4 @@ def bucket_sort_recursive(array: list, num_buckets: int, min_elem, max_elem) -> 
         for i in range(num_buckets):
             for k in range(len(buckets[i])):
                 result.append(buckets[i][k])
-    return result
+        return result
